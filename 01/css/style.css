@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+body .container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+body .container .cookie-card {
+  background-color: #555;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+body .container .cookie-card svg {
+  overflow: visible;
+}
+
+body .container .cookie-card .svg-container {
+  width: 35%;
+}
+
+body .container .cookie-card .desc {
+  width: 65%;
+}
+
+body .container .cookie-card .desc .title {
+  font-weight: 600;
+}
+
+body .container .cookie-card .desc .text {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+body .container .cookie-card .desc .btn {
+  font-family: inherit;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #b97850;
+  color: #fff;
+  cursor: pointer;
+}
